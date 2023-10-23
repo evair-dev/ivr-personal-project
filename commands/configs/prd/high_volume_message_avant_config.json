@@ -1,0 +1,8 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes. We are currently experiencing high call volumes and your wait time may be longer than normal. For additional support options, please visit us at W W W dot <phoneme alphabet='ipa' ph='əˈvɑnt'>Avant</phoneme> dot com.",
+    "routes": [
+      "18557527012", "18007125407"
+    ]
+  }
+]

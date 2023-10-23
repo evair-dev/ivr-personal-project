@@ -1,0 +1,32 @@
+{
+  "open_applications": [],
+  "open_products": [
+     {
+        "type": "CreditCardAccount",
+        "id": 144162,
+        "activatable?": false,
+        "credit_available_cents": 175442,
+        "past_due_amount_cents": 17178,
+        "operationally_charged_off?": false,
+        "days_late": 0
+    },
+    {
+      "id": 2838616,
+      "type": "Loan",
+      "funding_date": "2018-03-21",
+      "active_payoff_quote?": false,
+      "product_type": "installment",
+      "product_subtype": "unsecured",
+      "past_due_amount_cents": 0,
+      "operationally_charged_off?": false,
+      "in_grace_period?": false,
+      "days_late": 0
+    }
+  ],
+  "customer_information": {
+    "id": 111350673,
+    "state_of_residence": "FL",
+    "disaster_relief_plan?": false,
+    "last_contact": null
+  }
+}

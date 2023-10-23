@@ -1,0 +1,34 @@
+                             [
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>.",
+    "workflow_name": "Iivr.main_menu",
+    "routes": [
+      {
+        "queue_name": null,
+        "contact_type": "Telephone",
+        "inbound_target": "CreditSesame",
+        "active": true,
+        "admin": true
+      },
+      {
+        "queue_name": "Iivr.LN.ANY",
+        "contact_type": "TELEPHONE",
+        "inbound_target": "SweetPay",
+        "active": true,
+        "admin": false
+      }
+    ]
+  },
+  {
+    "greeting_message": "Thank you for calling TD.",
+    "routes": [
+      {
+        "queue_name": null,
+        "contact_type": "TELEPHONE",
+        "inbound_target": "Monevo",
+        "active": true,
+        "admin": false
+      }
+    ]
+  }
+]

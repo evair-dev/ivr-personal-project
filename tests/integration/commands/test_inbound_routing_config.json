@@ -1,0 +1,33 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>.",
+    "routes": [
+      {
+        "queue_name": null,
+        "contact_type": "IVR",
+        "inbound_target": "17732073682",
+        "active": true,
+        "admin": true
+      },
+      {
+        "queue_name": null,
+        "contact_type": "IVR",
+        "inbound_target": "17732073700",
+        "active": true,
+        "admin": false
+      }
+    ]
+  },
+  {
+    "greeting_message": "Thank you for calling TD.",
+    "routes": [
+      {
+        "queue_name": null,
+        "contact_type": "IVR",
+        "inbound_target": "1234567890",
+        "active": true,
+        "admin": false
+      }
+    ]
+  }
+]

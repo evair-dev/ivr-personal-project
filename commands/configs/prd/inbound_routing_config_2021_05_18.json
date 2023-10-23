@@ -1,0 +1,57 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "Iivr.ingress",
+    "routes": [
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13106922194",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13106922195",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13106922198",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13122120284",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13122160607",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13122160608",
+        "short_number": null,
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "13127637438",
+        "short_number": null,
+        "admin": false
+      }
+    ]
+  }
+]

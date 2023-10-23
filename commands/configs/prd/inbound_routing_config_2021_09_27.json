@@ -1,0 +1,443 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "Iivr.ingress",
+    "routes": [
+      {
+        "phone_number": "18557527012",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527020",
+        "queue_name": "AFC.CC.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185250",
+        "queue_name": "AFC.CC.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185251",
+        "queue_name": "AFC.CC.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185252",
+        "queue_name": "AFC.CC.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13106922194",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13106922195",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13106922198",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122120284",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160607",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160608",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637438",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637521",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637772",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637773",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637845",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637846",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637847",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637848",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637849",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637851",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637857",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637858",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637859",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637970",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185247",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185248",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13128185249",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050179",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050182",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050187",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050192",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050193",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17733050194",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "17734677034",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404539",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404546",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116052",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116053",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116054",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116055",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18448205523",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527001",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527002",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527003",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527004",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527005",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527006",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527009",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527010",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527018",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18882778848",
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160593",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13126754272",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13126754273",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13126754274",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404541",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404543",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404547",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116061",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18552826822",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18553556867",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18553556868",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18553556929",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18553556936",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18553556944",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527013",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527016",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527017",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527019",
+        "queue_name": "Card PAY",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160579",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13127637486",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160580",
+        "queue_name": "AFC.CC.ORIG",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160577",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13122160578",
+        "queue_name": "AFC.LN.ORIG",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "13124488697",
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18004076120",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18007122007",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18007125407",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404544",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404545",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18557527007",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116056",
+        "queue_name": "AFC.LN.ORIG",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116057",
+        "queue_name": "AFC.LN.ORIG",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18444116058",
+        "queue_name": "AFC.LN.ORIG",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404540",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      },
+      {
+        "phone_number": "18442404542",
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR"
+      }
+    ]
+  }
+]

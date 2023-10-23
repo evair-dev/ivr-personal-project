@@ -1,0 +1,13 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "Iivr.ivr.activate_card",
+    "routes": [
+      {
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "18557527011"
+      }
+    ]
+  }
+]

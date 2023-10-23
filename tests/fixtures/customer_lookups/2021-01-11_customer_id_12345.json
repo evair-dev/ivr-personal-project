@@ -1,0 +1,29 @@
+{
+  "open_applications": [],
+  "open_products": [
+     {
+        "type": "CreditCardAccount",
+        "id": 144162,
+        "activatable?": false,
+        "credit_available_cents": 175442,
+        "past_due_amount_cents": 17178,
+        "operationally_charged_off?": false,
+        "days_late": 0
+    },
+    {
+      "id": 3942467,
+      "type": "Loan",
+      "can_make_ach_payment": true,
+      "can_run_check_balance_and_quote_payoff": true,
+      "next_payment_date": "2021-01-25",
+      "next_payment_amount": "114.82",
+      "next_payment_method": "ach"
+    }
+  ],
+  "customer_information": {
+    "id": 12345,
+    "state_of_residence": "FL",
+    "disaster_relief_plan?": false,
+    "last_contact": null
+  }
+}

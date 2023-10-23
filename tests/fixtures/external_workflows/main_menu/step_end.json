@@ -1,0 +1,60 @@
+{
+  "name": "main_menu",
+  "state": {
+    "optional_data": "AFC.LN.ORIG",
+    "steps": [
+      "start",
+      "end"
+    ],
+    "actions": [
+      "personal_loan_existing"
+    ],
+    "step_action": "personal_loan_existing",
+    "session_uuid": "65d753ab-d10d-4b82-80b1-b7deabd943c3",
+    "session_type_rank": 1,
+    "errors": [],
+    "action_to_take": "3"
+  },
+  "json_output": {
+    "uuid": "65d753ab-d10d-4b82-80b1-b7deabd943c3",
+    "name": "main_menu",
+    "opts": {
+      "multipart": false
+    },
+    "state": {
+      "optional_data": "AFC.LN.ORIG",
+      "steps": [
+        "start",
+        "end"
+      ],
+      "actions": [
+        "personal_loan_existing"
+      ],
+      "step_action": "personal_loan_existing",
+      "session_uuid": "65d753ab-d10d-4b82-80b1-b7deabd943c3",
+      "session_type_rank": 1,
+      "errors": [],
+      "action_to_take": "3"
+    },
+    "step": {
+      "event": null,
+      "name": "end",
+      "opts": {},
+      "script": "audio:shared/_silence",
+      "error": null,
+      "inputs": [],
+      "errors": [],
+      "actions": [
+        {
+          "displayName": "Finish",
+          "name": "finish",
+          "isFinish": true,
+          "opts": {}
+        }
+      ],
+      "action_to_emphasize": null,
+      "authenticity_token": "",
+      "uuid": "b829ae5a-38a9-4f90-af07-50be09c4677f"
+    }
+  }
+}

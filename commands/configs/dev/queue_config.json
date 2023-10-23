@@ -1,0 +1,178 @@
+[
+  {
+    "name": "AFC.LN.PAY.INT",
+    "partner": "Iivr",
+    "phone_system": "Livevox",
+    "pstn_number": "312-584-8784",
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.EXT",
+    "partner": "Iivr",
+    "phone_system": "Livevox",
+    "pstn_number": "312-584-8783",
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.AH",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "773-695-2581",
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.CUS",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "312-216-0577",
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.ORIG",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "312-216-0578",
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.CUS",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "312-216-0579",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.ORIG",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "312-216-0580",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.INT",
+    "partner": "Iivr",
+    "phone_system": "Livevox",
+    "pstn_number": "312-584-8788",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.EXT",
+    "partner": "Iivr",
+    "phone_system": "Livevox",
+    "pstn_number": "312-584-8789",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.ANY",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "773-695-2581",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.PAY",
+    "partner": "Iivr",
+    "phone_system": "DR Cisco",
+    "pstn_number": "800-480-8576",
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  }
+]

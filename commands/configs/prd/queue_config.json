@@ -1,0 +1,279 @@
+[
+  {
+    "name": "AFC.LN.PAY.INT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848784",
+        "priority": 0
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "1930"}],
+      [{"start":  "0800", "end":  "1730"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.EXT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848783",
+        "priority": 0
+
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "1930"}],
+      [{"start":  "0800", "end":  "1730"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.AH",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848784",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1730", "end":  "2000"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1930", "end":  "2200"}],
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1730", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.CUS",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160577",
+        "priority": 1
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952584",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.ORIG",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160578",
+        "priority": 1
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952582",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.CUS",
+    "partner": "Iivr",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160579",
+        "priority": 1
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952583",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.ORIG",
+    "partner": "Iivr",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160580",
+        "priority": 1
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952586",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.INT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848788",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.EXT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848789",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.ANY",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848784",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.PAY",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "18004808576",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  }
+]

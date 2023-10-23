@@ -1,0 +1,24 @@
+[
+  {
+    "name": "REG.LN.ORIG",
+    "partner": "regions",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7:00AM to 8:00PM Central Time, seven days a week. We apologize for this inconvenience.",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WW500ad2c88f081817dd0a31f46f1c9333",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [],
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0800", "end":  "1200"}]
+    ]
+  }
+  ]

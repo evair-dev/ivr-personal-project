@@ -1,0 +1,23 @@
+{
+  "open_applications": [],
+  "open_products": [
+    {
+      "id": 7,
+      "type": "Loan",
+      "funding_date": "2020-07-24",
+      "active_payoff_quote?": false,
+      "product_type": "installment",
+      "product_subtype": "unsecured",
+      "past_due_amount_cents": 141828,
+      "operationally_charged_off?": false,
+      "in_grace_period?": false,
+      "days_late": 350
+    }
+  ],
+  "customer_information": {
+    "id": 7,
+    "state_of_residence": "AL",
+    "disaster_relief_plan?": false,
+    "last_contact": null
+  }
+}

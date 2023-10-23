@@ -1,0 +1,36 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "Iivr.ingress",
+    "routes": [
+      {
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "17732074709",
+        "short_number": "9",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "17732074708",
+        "short_number": "8",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "17732074706",
+        "short_number": "6",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.CC.PAY.INT",
+        "contact_type": "IVR",
+        "inbound_target": "17732074707",
+        "short_number": "5",
+        "admin": false
+      }
+    ]
+  }
+]

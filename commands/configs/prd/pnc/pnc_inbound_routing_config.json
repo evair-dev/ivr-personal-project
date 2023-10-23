@@ -1,0 +1,20 @@
+[
+  {
+    "greeting_message": "Thank you for choosing P N C Bank. Your call may be recorded or monitored for quality assurance and security purposes. To receive faster service, please have your account information available.",
+    "workflow_name": "shared.ivr.telco_customer_lookup",
+    "routes": [
+      {
+        "queue_name": "PNC.LN.ORIG",
+        "contact_type": "IVR",
+        "inbound_target": "17733477421",
+        "short_number": "12",
+        "admin": false
+      },
+      {
+        "queue_name": "PNC.LN.ORIG",
+        "contact_type": "IVR",
+        "inbound_target": "18779478785",
+        "admin": false
+      }
+    ]}
+]

@@ -1,0 +1,8 @@
+version: '3.5'
+
+
+services:
+  mountebank:
+    ports:
+      - '2525:2525'
+      - '8080:8080'

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "AFC.LN.PAY.AH",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13125848784",
+        "priority": 0
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952581",
+        "priority": -1
+      }
+    ]
+  }
+]

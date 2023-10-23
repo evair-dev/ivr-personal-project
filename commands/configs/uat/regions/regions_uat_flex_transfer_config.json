@@ -1,0 +1,18 @@
+[
+  {
+    "name": "REG.LN.ORIG",
+    "partner": "regions",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WW55d0590a388c6ef5684855c9b3d85ff3",
+        "priority": -1
+      },
+      {
+        "type": "flex",
+        "workflow_sid": "WW82c5839fceef7566da0f86d56041a619",
+        "priority": 0
+      }
+    ]
+  }
+  ]

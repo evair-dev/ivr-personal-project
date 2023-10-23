@@ -1,0 +1,406 @@
+[
+  {
+    "name": "make_payment",
+    "state": {
+      "product_type": "loan",
+      "product_id": 2838616,
+      "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "steps": [
+        "pay_with_bank_account_on_file"
+      ],
+      "actions": [],
+      "session_type_rank": 1,
+      "errors": [],
+      "originally_late": "false"
+    },
+    "json_output": {
+      "uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "name": "make_payment",
+      "opts": {
+        "multipart": false
+      },
+      "state": {
+        "product_type": "loan",
+        "product_id": 2838616,
+        "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+        "steps": [
+          "pay_with_bank_account_on_file"
+        ],
+        "actions": [],
+        "session_type_rank": 1,
+        "errors": [],
+        "originally_late": "false"
+      },
+      "step": {
+        "event": null,
+        "name": "pay_with_bank_account_on_file",
+        "opts": {},
+        "script": "audio:product/make_payment/_use_bank_account_on_file",
+        "error": null,
+        "inputs": [],
+        "errors": [],
+        "actions": [
+          {
+            "displayName": "Yes",
+            "name": "yes",
+            "opts": {
+              "action_type": "yes"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          },
+          {
+            "displayName": "No",
+            "name": "no",
+            "opts": {
+              "action_type": "no"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          }
+        ],
+        "action_to_emphasize": null,
+        "authenticity_token": "",
+        "uuid": "b01eddce-3cb8-4c47-9917-280e91fab37c"
+      }
+    }
+  },
+  {
+    "name": "make_payment",
+    "state": {
+      "product_type": "loan",
+      "product_id": 2838616,
+      "steps": [
+        "pay_with_bank_account_on_file",
+        "pay_on_earliest_date"
+      ],
+      "actions": [
+        "yes"
+      ],
+      "step_action": "yes",
+      "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "session_type_rank": 1,
+      "originally_late": "false",
+      "errors": [],
+      "method": "ach"
+    },
+    "json_output": {
+      "uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "name": "make_payment",
+      "opts": {
+        "multipart": false
+      },
+      "state": {
+        "product_type": "loan",
+        "product_id": 2838616,
+        "steps": [
+          "pay_with_bank_account_on_file",
+          "pay_on_earliest_date"
+        ],
+        "actions": [
+          "yes"
+        ],
+        "step_action": "yes",
+        "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+        "session_type_rank": 1,
+        "originally_late": "false",
+        "errors": [],
+        "method": "ach"
+      },
+      "step": {
+        "event": null,
+        "name": "pay_on_earliest_date",
+        "opts": {},
+        "script": "audio:product/make_payment/_schedule_this_payment_for,date:01202021",
+        "error": null,
+        "inputs": [],
+        "errors": [],
+        "actions": [
+          {
+            "displayName": "Yes",
+            "name": "yes",
+            "opts": {
+              "action_type": "yes"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          },
+          {
+            "displayName": "No",
+            "name": "no",
+            "opts": {
+              "action_type": "no"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          }
+        ],
+        "action_to_emphasize": null,
+        "authenticity_token": "",
+        "uuid": "78d4cfe4-c783-4474-a31d-479f98ab5615"
+      }
+    }
+  },
+  {
+    "name": "make_payment",
+    "state": {
+      "product_type": "loan",
+      "product_id": 2838616,
+      "method": "ach",
+      "steps": [
+        "pay_with_bank_account_on_file",
+        "pay_on_earliest_date",
+        "select_amount"
+      ],
+      "actions": [
+        "yes",
+        "yes"
+      ],
+      "step_action": "yes",
+      "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "session_type_rank": 1,
+      "originally_late": "false",
+      "errors": []
+    },
+    "json_output": {
+      "uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "name": "make_payment",
+      "opts": {
+        "multipart": false
+      },
+      "state": {
+        "product_type": "loan",
+        "product_id": 2838616,
+        "method": "ach",
+        "steps": [
+          "pay_with_bank_account_on_file",
+          "pay_on_earliest_date",
+          "select_amount"
+        ],
+        "actions": [
+          "yes",
+          "yes"
+        ],
+        "step_action": "yes",
+        "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+        "session_type_rank": 1,
+        "originally_late": "false",
+        "errors": []
+      },
+      "step": {
+        "event": null,
+        "name": "select_amount",
+        "opts": {},
+        "script": "audio:product/make_payment/_select_amount,audio:shared/_enter_amount",
+        "error": null,
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "number",
+            "placeholder": "Confirm your payment amount",
+            "required": true,
+            "min": 0.01,
+            "step": 0.01,
+            "min_message": "Value must be 0.01 or more",
+            "readonly": false,
+            "value": null,
+            "__type_for_graphql": "WorkflowNumberInput"
+          }
+        ],
+        "errors": [],
+        "actions": [
+          {
+            "displayName": "Next",
+            "name": "next",
+            "opts": {
+              "action_type": "confirm"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          }
+        ],
+        "action_to_emphasize": null,
+        "authenticity_token": "",
+        "uuid": "70e27419-9ba7-4584-be58-32f616127d62"
+      }
+    }
+  },
+  {
+    "name": "make_payment",
+    "state": {
+      "product_type": "loan",
+      "product_id": 2838616,
+      "amount": "1.23",
+      "method": "ach",
+      "date": "2021-01-20",
+      "steps": [
+        "pay_with_bank_account_on_file",
+        "pay_on_earliest_date",
+        "select_amount",
+        "confirmation"
+      ],
+      "actions": [
+        "yes",
+        "yes",
+        "next"
+      ],
+      "step_action": "next",
+      "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "session_type_rank": 1,
+      "originally_late": "false",
+      "errors": []
+    },
+    "json_output": {
+      "uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "name": "make_payment",
+      "opts": {
+        "multipart": false
+      },
+      "state": {
+        "product_type": "loan",
+        "product_id": 2838616,
+        "amount": "1.23",
+        "method": "ach",
+        "date": "2021-01-20",
+        "steps": [
+          "pay_with_bank_account_on_file",
+          "pay_on_earliest_date",
+          "select_amount",
+          "confirmation"
+        ],
+        "actions": [
+          "yes",
+          "yes",
+          "next"
+        ],
+        "step_action": "next",
+        "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+        "session_type_rank": 1,
+        "originally_late": "false",
+        "errors": []
+      },
+      "step": {
+        "event": null,
+        "name": "confirmation",
+        "opts": {},
+        "script": "audio:product/make_payment/_authorizing,audio:shared/_Iivr,audio:shared/_account_servicer,audio:shared/_one_time_ach_debit,audio:shared/_account_ending_in,digits:4637,audio:shared/_for,currency:1.23,audio:shared/_on,date:01202021,audio:product/make_payment/_also_authorizing,audio:shared/_Iivr,audio:shared/_account_servicer,audio:product/make_payment/_confirmation_email",
+        "error": null,
+        "inputs": [],
+        "errors": [],
+        "actions": [
+          {
+            "displayName": "I agree",
+            "name": "i_agree",
+            "opts": {
+              "action_type": "authorize"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          },
+          {
+            "displayName": "Cancel",
+            "name": "cancel",
+            "opts": {
+              "action_type": "cancel"
+            },
+            "isFinish": false,
+            "emphasized": null,
+            "secondary": null
+          }
+        ],
+        "action_to_emphasize": null,
+        "authenticity_token": "",
+        "uuid": "d4267dd4-0852-4141-8dd4-1b1c5d0dd21f"
+      }
+    }
+  },
+  {
+    "name": "make_payment",
+    "state": {
+      "product_type": "loan",
+      "product_id": 2838616,
+      "amount": "1.23",
+      "method": "ach",
+      "date": "2021-01-20",
+      "steps": [
+        "pay_with_bank_account_on_file",
+        "pay_on_earliest_date",
+        "select_amount",
+        "confirmation",
+        "end"
+      ],
+      "actions": [
+        "yes",
+        "yes",
+        "next",
+        "i_agree"
+      ],
+      "step_action": "i_agree",
+      "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+      "session_type_rank": 1,
+      "originally_late": "false",
+      "errors": []
+
+    },
+    "json_output": {
+      "uuid": "803f4b4c-057d-4438-a39f-0e1072f3c88a",
+      "name": "make_payment",
+      "opts": {
+        "multipart": false
+      },
+      "state": {
+        "product_type": "loan",
+        "product_id": 2838616,
+        "amount": "1.23",
+        "method": "ach",
+        "date": "2021-01-20",
+        "steps": [
+          "pay_with_bank_account_on_file",
+          "pay_on_earliest_date",
+          "select_amount",
+          "confirmation",
+          "end"
+        ],
+        "actions": [
+          "yes",
+          "yes",
+          "next",
+          "i_agree"
+        ],
+        "step_action": "i_agree",
+        "session_uuid": "70e27419-9ba7-4584-be58-32f616127d62",
+        "session_type_rank": 1,
+        "originally_late": "false",
+        "errors": []
+      },
+      "step": {
+        "event": null,
+        "name": "end",
+        "opts": {
+          "end_button_text": {}
+        },
+        "script": "audio:product/make_payment/_payment_thank_you,currency:1.23,audio:product/make_payment/_authorized_on,date:01192021,audio:product/make_payment/_questions_please_call,phone:8007125407",
+        "error": null,
+        "inputs": [],
+        "errors": [],
+        "actions": [
+          {
+            "displayName": "Finish",
+            "name": "finish",
+            "isFinish": true,
+            "opts": {}
+          }
+        ],
+        "action_to_emphasize": null,
+        "authenticity_token": "",
+        "uuid": "6c775776-d65e-469f-9b3d-2c3f91542895"
+      }
+    }
+  }
+]

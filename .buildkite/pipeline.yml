@@ -1,0 +1,70 @@
+x-ecr: &ecr
+  ecr#v1.1.4:
+    login: true
+    account_ids: '926494997070'
+    region: 'us-east-2'
+
+steps:
+  - name: 'Build'
+    plugins:
+      <<: *ecr
+      docker-compose#v3.5.0:
+        build: web
+        image-repository: 926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway
+        cache-from:
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:$BUILDKITE_COMMIT"
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:$DOCKERIZED_GIT_BRANCH"
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:master"
+        push:
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:$BUILDKITE_COMMIT"
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:$DOCKERIZED_GIT_BRANCH"
+          - "web:926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway:buildkite-${BUILDKITE_PIPELINE_SLUG}-web-build-${BUILDKITE_BUILD_NUMBER}"
+
+  - wait
+
+  - name: 'Test'
+    command: '.buildkite/test'
+    artifact_paths:
+      - htmlcov/junit.xml
+    env:
+      REDIS_URL: redis://redis:6379/0
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: ivr_gateway
+      DATABASE_URL: postgresql://postgres:password@postgres/ivr_gateway
+      API_KEY: user
+      API_SECRET: password
+      SERVER_NAME: ivr-gateway.test.Iivr.com
+      TZ: UTC
+      IVR_APP_ENV: test
+      IVR_AMOUNT_CARD_ACTIVATION_SECRET: secret
+    plugins:
+      <<: *ecr
+      docker-compose#v3.5.0:
+        image-repository: 926494997070.dkr.ecr.us-east-2.amazonaws.com/ivr-gateway
+        run: web
+        env:
+          - REDIS_URL
+          - POSTGRES_USER
+          - POSTGRES_PASSWORD
+          - POSTGRES_HOST
+          - POSTGRES_DB
+          - DATABASE_URL
+          - API_KEY
+          - API_SECRET
+          - SERVER_NAME
+          - IVR_AMOUNT_BASE_URL
+          - IVR_AMOUNT_CLIENT_VERSION
+          - ACTIVE_ENCRYPTION_KEY
+          - ENCRYPTION_KEY_V1
+          - TZ
+          - IVR_APP_ENV
+          - IVR_AMOUNT_CARD_ACTIVATION_SECRET
+
+  - wait: ~
+    continue_on_failure: true
+
+  - plugins:
+    - junit-annotate#v1.2.0:
+        artifacts: htmlcov/junit.xml

@@ -1,0 +1,78 @@
+version: '3.5'
+
+x-main: &main
+  tty: true
+  stdin_open: true
+  image: ivr_gateway
+  build: .
+  environment:
+    REDIS_URL: ${REDIS_URL}
+    API_KEY: ${API_KEY}
+    API_SECRET: ${API_SECRET}
+    POSTGRES_USER: ${POSTGRES_USER}
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    POSTGRES_HOST: ${POSTGRES_HOST}
+    POSTGRES_DB: ${POSTGRES_DB}
+    DATABASE_URL: ${DATABASE_URL}
+    SERVER_NAME: ${SERVER_NAME}
+    TELCO_API_PATH: ${TELCO_API_PATH}
+    TELCO_API_KEY: ${TELCO_API_KEY}
+    TWILIO_ACCOUNT_SID: ${TWILIO_ACCOUNT_SID}
+    TWILIO_AUTH_TOKEN: ${TWILIO_AUTH_TOKEN}
+    IVR_AMOUNT_BASE_URL: ${IVR_AMOUNT_BASE_URL}
+    IVR_AMOUNT_CLIENT_VERSION: ${IVR_AMOUNT_CLIENT_VERSION}
+    IVR_AMOUNT_CLIENT_INSTALL: ${IVR_AMOUNT_CLIENT_INSTALL}
+    ACTIVE_ENCRYPTION_KEY: ${ACTIVE_ENCRYPTION_KEY}
+    ENCRYPTION_KEY_V1: ${ENCRYPTION_KEY_V1}
+    TELEPHONY_AUTHENTICATION_REQUIRED: ${TELEPHONY_AUTHENTICATION_REQUIRED}
+    LOG_LEVEL: ${LOG_LEVEL}
+    TZ: ${TZ}
+    IVR_APP_ENV: ${IVR_APP_ENV}
+    IVR_AMOUNT_CARD_ACTIVATION_SECRET: ${IVR_AMOUNT_CARD_ACTIVATION_SECRET}
+
+  volumes:
+    - .:/usr/src/app
+
+services:
+
+  redis:
+    image: redis
+    environment:
+      - REDIS_URL=${REDIS_URL}
+  postgres:
+    hostname: postgres
+    build:
+      context: ./postgres
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - TZ=${TZ}
+    ports:
+      - '5432:5432'
+  migrate:
+    <<: *main
+    command: db_migrate
+    depends_on:
+      - postgres
+  web:
+    <<: *main
+    command: web
+    ports:
+      - '9000:9000'
+    depends_on:
+      - redis
+      - postgres
+      - migrate
+      - mountebank
+  mountebank:
+    container_name: mountebank
+    image: jkris/mountebank:latest
+    volumes:
+      - ./mountebank:/mountebank
+#    ports:
+#      - '2525:2525'
+#      - '8080:8080'

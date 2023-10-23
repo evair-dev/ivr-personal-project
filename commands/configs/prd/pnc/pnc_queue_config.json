@@ -1,0 +1,24 @@
+[
+  {
+    "name": "PNC.LN.ORIG",
+    "partner": "pnc",
+    "closed_message": "<break time=\"500ms\"/> Our offices are currently closed. Please call back during our normal business hours of 10 AM to 8 PM Eastern Time Monday through Friday, and 9 AM to 5 PM Eastern Time on Saturday. <break time=\"500ms\"/> Thank you.",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WWeaea0cf7077cec7dddba6339fb4d72e6",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [],
+      [{"start":  "0900", "end":  "1900"}],
+      [{"start":  "0900", "end":  "1900"}],
+      [{"start":  "0900", "end":  "1900"}],
+      [{"start":  "0900", "end":  "1900"}],
+      [{"start":  "0900", "end":  "1900"}],
+      [{"start":  "0800", "end":  "1600"}]
+    ]
+  }
+  ]

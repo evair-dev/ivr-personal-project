@@ -1,0 +1,37 @@
+{
+  "open_applications": [
+    {
+      "id": 672,
+      "type": "installment"
+    }
+  ],
+  "open_products": [
+    {
+      "id": 126,
+      "type": "Loan",
+      "funding_date": "2021-06-01",
+      "active_payoff_quote?": false,
+      "product_type": "installment",
+      "product_subtype": "unsecured",
+      "past_due_amount_cents": 7296,
+      "operationally_charged_off?": false,
+      "in_grace_period?": false,
+      "days_late": 42
+    },
+    {
+      "type": "CreditCardAccount",
+      "id": 144162,
+      "activatable?": false,
+      "credit_available_cents": 36181,
+      "past_due_amount_cents": 0,
+      "operationally_charged_off?": false,
+      "days_late": null
+    }
+  ],
+  "customer_information": {
+    "id": 68,
+    "state_of_residence": "IL",
+    "disaster_relief_plan?": false,
+    "last_contact": null
+  }
+}

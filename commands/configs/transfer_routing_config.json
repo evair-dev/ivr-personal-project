@@ -1,0 +1,169 @@
+[
+  {
+    "name": "AFC.LN.PAY.INT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13125848784",
+        "priority": 5
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.EXT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13125848783",
+        "priority": 5
+
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.AH",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952581",
+        "priority": 5
+
+      }
+    ]
+  },
+  {
+    "name": "AFC.LN.CUS",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160577",
+        "priority": 5
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952584",
+        "priority": 0
+      }
+    ]
+  },
+  {
+    "name": "AFC.LN.ORIG",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160578",
+        "priority": 5
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952582",
+        "priority": 0
+      }
+    ]
+  },
+  {
+    "name": "AFC.CC.CUS",
+    "partner": "Iivr",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160579",
+        "priority": 5
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952583",
+        "priority": 0
+      }
+    ]
+  },
+  {
+    "name": "AFC.CC.ORIG",
+    "partner": "Iivr",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160580",
+        "priority": 5
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952586",
+        "priority": 0
+      }
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.INT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13125848788",
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.EXT",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13125848789",
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.ANY",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WW154f73fb6458f5fab3a0e25db084b049",
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.PAY",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "18004808576",
+        "priority": 5
+      }
+    ]
+  }
+]

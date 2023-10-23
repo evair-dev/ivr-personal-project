@@ -1,0 +1,99 @@
+{
+  "name": "main_menu",
+  "state": {
+    "optional_data": "AFC.LN.ORIG",
+    "session_uuid": "f2c24fc3-addb-4b32-8cfd-2fbd0fe28134",
+    "steps": [
+      "start"
+    ],
+    "actions": [],
+    "session_type_rank": 1,
+    "errors": []
+  },
+  "json_output": {
+    "uuid": "f2c24fc3-addb-4b32-8cfd-2fbd0fe28134",
+    "name": "main_menu",
+    "opts": {
+      "multipart": false
+    },
+    "state": {
+      "optional_data": "AFC.LN.ORIG",
+      "session_uuid": "f2c24fc3-addb-4b32-8cfd-2fbd0fe28134",
+      "steps": [
+        "start"
+      ],
+      "actions": [],
+      "session_type_rank": 1,
+      "errors": []
+    },
+    "step": {
+      "event": null,
+      "name": "start",
+      "opts": {},
+      "script": "audio:shared/_silence",
+      "error": null,
+      "inputs": [],
+      "errors": [],
+      "actions": [
+        {
+          "displayName": "Personal loan application in progress",
+          "name": "personal_loan_application_in_progress",
+          "opts": {
+            "menu_choice": "personal_loan_application_in_progress",
+            "hidden": {}
+          },
+          "isFinish": false,
+          "emphasized": null,
+          "secondary": null
+        },
+        {
+          "displayName": "Personal loan application new",
+          "name": "personal_loan_application_new",
+          "opts": {
+            "menu_choice": "personal_loan_application_new",
+            "hidden": {}
+          },
+          "isFinish": false,
+          "emphasized": null,
+          "secondary": null
+        },
+        {
+          "displayName": "Personal loan existing",
+          "name": "personal_loan_existing",
+          "opts": {
+            "menu_choice": "personal_loan_existing",
+            "hidden": {}
+          },
+          "isFinish": false,
+          "emphasized": null,
+          "secondary": null
+        },
+        {
+          "displayName": "Auto loan questions",
+          "name": "auto_loan_questions",
+          "opts": {
+            "menu_choice": "auto_loan_questions",
+            "hidden": {}
+          },
+          "isFinish": false,
+          "emphasized": null,
+          "secondary": null
+        },
+        {
+          "displayName": "All other questions",
+          "name": "all_other_questions",
+          "opts": {
+            "menu_choice": "all_other_questions",
+            "hidden": {}
+          },
+          "isFinish": false,
+          "emphasized": null,
+          "secondary": null
+        }
+      ],
+      "action_to_emphasize": null,
+      "authenticity_token": "",
+      "uuid": "d49a4d15-bd1c-498a-8ff5-fff8fdcaf179"
+    }
+  }
+}

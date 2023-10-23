@@ -1,0 +1,38 @@
+[
+  {
+    "name": "TestHoliday1",
+    "date": "2021-05-27",
+    "queue_configs": [
+      {
+        "queues": [
+          "AFC.LN.CUS",
+          "AFC.CC.CUS"
+        ],
+        "message": "It is the 27th of May 2021 and we are closed after 2PM.",
+        "start_time": "09:00",
+        "end_time": "14:00"
+      },
+      {
+        "queues": [
+          "AFC.LN.ORIG"
+        ],
+        "message": "It is the 27th of May 2021 originations is closed all day."
+      }
+    ]
+  },
+  {
+    "name":"TestHoliday2",
+    "date": "2021-05-28",
+    "queue_configs": [
+      {
+        "queues": [
+          "AFC.LN.CUS",
+          "AFC.CC.CUS"
+        ],
+        "message": "It is the 28th of May 2021 and we are closed after 2PM.",
+        "start_time": "09:00",
+        "end_time": "14:00"
+      }
+    ]
+  }
+]

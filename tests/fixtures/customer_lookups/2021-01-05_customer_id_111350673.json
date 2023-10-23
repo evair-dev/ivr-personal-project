@@ -1,0 +1,23 @@
+{
+  "open_applications": [],
+  "open_products": [
+    {
+      "id": 3050541,
+      "type": "Loan",
+      "funding_date": "2018-03-21",
+      "active_payoff_quote?": false,
+      "product_type": "installment",
+      "product_subtype": "unsecured",
+      "past_due_amount_cents": 9518,
+      "operationally_charged_off?": false,
+      "in_grace_period?":true,
+      "days_late": 0
+    }
+  ],
+  "customer_information": {
+    "id": 111350673,
+    "state_of_residence": "FL",
+    "disaster_relief_plan?": false,
+    "last_contact": null
+  }
+}

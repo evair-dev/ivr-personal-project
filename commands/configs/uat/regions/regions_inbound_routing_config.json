@@ -1,0 +1,14 @@
+[
+  {
+    "greeting_message": "Thank you for calling Regions. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "shared.ivr.telco_customer_lookup",
+    "routes": [
+      {
+        "queue_name": "REG.LN.ORIG",
+        "contact_type": "IVR",
+        "inbound_target": "17732074132",
+        "short_number": "11",
+        "admin": false
+      }
+    ]}
+]

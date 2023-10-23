@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ $1 != "docker" ]]; then
+  pipenv run tox .env.local
+else
+  docker-compose run --rm web test && docker-compose down
+fi

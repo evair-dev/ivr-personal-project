@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MarchNineteenth2022",
+    "date": "2022-03-19",
+    "queue_configs": [
+      {
+        "queues": [
+          "AFC.BANK.CUS",
+          "AFC.LN.CUS",
+          "AFC.LN.PAY.INT",
+          "AFC.LN.PAY.EXT",
+          "AFC.LN.PAY.AH",
+          "AFC.LN.ORIG",
+          "AFC.CC.CUS",
+          "AFC.CC.PAY.INT",
+          "AFC.CC.PAY.EXT",
+          "AFC.CC.ORIG",
+          "Iivr.unsecured.ANY",
+          "Iivr.unsecured.PAY"
+        ],
+        "message": "<break time=\"500ms\"/> Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>.  We are currently closed for the evening. We will open again at 7:00am central time on Sunday.",
+        "start_time": "07:00",
+        "end_time": "18:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ "$1" = 'db_migrate' ]; then
+  docker-compose run --rm migrate "$@"
+elif [ "$1" = 'db_downgrade' ]; then
+  docker-compose run --rm migrate "$@"
+elif [ "$1" = 'pg' ]; then
+  docker-compose run -d -p 5432:5432 postgres
+else
+  docker-compose -f docker-compose.yml -f docker-compose.local.yml run -p 9000:9000 --rm web "$@"
+fi

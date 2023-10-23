@@ -1,0 +1,21 @@
+[
+  {
+    "name": "AFC.CC.CUS",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WWabcdef",
+        "priority": 0,
+        "weight": 90
+      },
+      {
+        "type": "pstn",
+        "phone_system": "LiveVox",
+        "pstn_number": "13122627793",
+        "priority": 0,
+        "weight": 10
+      }
+    ]
+  }
+]

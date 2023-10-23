@@ -1,0 +1,268 @@
+[
+  {
+    "name": "AFC.LN.PAY.INT",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13122627793",
+        "priority": 0
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "1930"}],
+      [{"start":  "0800", "end":  "1730"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.EXT",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13122627793",
+        "priority": 0
+
+      },
+      {
+        "type": "queue",
+        "queue_name": "AFC.LN.PAY.AH",
+        "priority": 10
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0900", "end":  "1730"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "2200"}],
+      [{"start":  "0800", "end":  "1930"}],
+      [{"start":  "0800", "end":  "1730"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.PAY.AH",
+    "partner": "Iivr",
+    "closed_message": "Sorry the call center is currently closed.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+
+      }
+    ],
+
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1730", "end":  "2000"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}],
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1930", "end":  "2200"}],
+      [{"start":  "0700", "end":  "0800"}, {"start":  "1730", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.CUS",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.LN.ORIG",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 1000,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.CUS",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.ORIG",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+        "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.INT",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "AFC.CC.PAY.EXT",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "Livevox",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.ANY",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  },
+  {
+    "name": "Iivr.unsecured.PAY",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7am-10pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122627793",
+        "priority": 0
+      }
+    ],
+    "past_due_cents_amount": 0,
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  }
+]

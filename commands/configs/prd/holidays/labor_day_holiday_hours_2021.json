@@ -1,0 +1,26 @@
+[
+  {
+    "name": "LaborDay2021",
+    "date": "2021-09-06",
+    "queue_configs": [
+      {
+        "queues": [
+          "AFC.LN.CUS",
+          "AFC.LN.PAY.INT",
+          "AFC.LN.PAY.EXT",
+          "AFC.LN.PAY.AH",
+          "AFC.LN.ORIG",
+          "AFC.CC.CUS",
+          "AFC.CC.PAY.INT",
+          "AFC.CC.PAY.EXT",
+          "AFC.CC.ORIG",
+          "Iivr.unsecured.ANY",
+          "Iivr.unsecured.PAY"
+        ],
+        "message": "<break time=\"500ms\"/> We are currently closed in observance of Labor Day. Please try us back during our normal business hours of 8am to 7:30pm central time Monday through Friday and 8am to 6:30pm central time Saturday and Sunday. We apologize for this inconvenience and look forward to speaking with you then.",
+        "start_time": "09:00",
+        "end_time": "17:30"
+      }
+    ]
+  }
+]

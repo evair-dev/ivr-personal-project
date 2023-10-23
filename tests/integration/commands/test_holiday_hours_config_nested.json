@@ -1,0 +1,17 @@
+[
+  {
+    "name": "test_holiday",
+    "date": "2021-12-31",
+    "queue_configs": [
+      {
+        "queues": ["Iivr.LN.ANY",  "Iivr.test.queue"],
+        "message": "it is memorial day, we are gone",
+        "start_time":  "09:00",
+        "end_time": "14:00"
+      },
+      {
+        "queues": ["Iivr.test.two"]
+      }
+    ]
+  }
+]

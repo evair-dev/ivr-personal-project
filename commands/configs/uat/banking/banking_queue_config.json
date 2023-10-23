@@ -1,0 +1,23 @@
+[
+  {
+    "name": "AFC.BANK.CUS",
+    "partner": "Iivr",
+    "closed_message": "<break time=\"500ms\"/> We are currently closed. Please try us back during our normal business hours of 7:00AM to 10:00PM Central Time, Monday through Friday, and 7:00AM to 8:00PM Central Time, Saturday and Sunday. We apologize for this inconvenience and look forward to speaking with you then.",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WW331483530d0b0b6b9f84b66fd1f37f39",
+        "priority": 0
+      }
+    ],
+    "hours_of_operation": [
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2200"}],
+      [{"start":  "0700", "end":  "2000"}],
+      [{"start":  "0700", "end":  "2000"}]
+    ]
+  }
+]

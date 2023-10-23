@@ -1,0 +1,18 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "shared.ivr.noop_queue_transfer",
+    "routes": [
+      {
+        "queue_name": "AFC.BANK.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "17739741815"
+      },
+      {
+        "queue_name": "AFC.BANK.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "17738697213"
+      }
+    ]
+  }
+]

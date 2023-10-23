@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ChristmasDay2021",
+    "date": "2021-12-25",
+    "queue_configs": [
+      {
+        "queues": [
+          "AFC.LN.CUS",
+          "AFC.LN.PAY.INT",
+          "AFC.LN.PAY.EXT",
+          "AFC.LN.PAY.AH",
+          "AFC.LN.ORIG",
+          "AFC.CC.CUS",
+          "AFC.CC.PAY.INT",
+          "AFC.CC.PAY.EXT",
+          "AFC.CC.ORIG",
+          "AFC.BANK.CUS",
+          "Iivr.unsecured.ANY",
+          "Iivr.unsecured.PAY",
+          "REG.LN.ORIG",
+          "PNC.LN.ORIG"
+        ],
+        "message": "<break time=\"500ms\"/> We are currently closed. In observance of the holiday, we have reduced holiday hours to 9:00am to 3:30pm Central Time. You can also try us back during our normal business hours of 7:00AM to 10:00PM Central Time, Monday through Friday, and 7:00AM to 8:00PM Central Time, Saturday and Sunday. We apologize for this inconvenience and look forward to speaking with you soon.",
+        "start_time": "09:00",
+        "end_time": "15:30"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "MemorialDay2021",
+    "date": "2021-05-31",
+    "queue_configs": [
+      {
+        "queues": ["AFC.LN.PAY.INT", "AFC.LN.PAY.EXT", "AFC.LN.PAY.AH", "AFC.LN.CUS", "AFC.LN.ORIG", "AFC.CC.CUS", "AFC.CC.ORIG", "AFC.CC.PAY.INT", "AFC.CC.PAY.EXT", "Iivr.unsecured.ANY", "Iivr.unsecured.PAY"],
+        "message": "<break time=\"500ms\"/>  We are currently closed in observance of a holiday.  Please try us back during our normal business hours of 7am to 8:00pm central time. We apologize for this inconvenience and look forward to speaking with you then.",
+        "start_time": "09:00",
+        "end_time": "17:30"
+      }
+    ]
+  }
+]

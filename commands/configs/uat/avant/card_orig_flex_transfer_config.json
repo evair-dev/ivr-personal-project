@@ -1,0 +1,25 @@
+[
+  {
+    "name": "AFC.CC.ORIG",
+    "partner": "Iivr",
+    "transfer_routings": [
+      {
+        "type": "flex",
+        "workflow_sid": "WW34b0450027688e77363bcf8d3635ed0b",
+        "priority": 0
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "13122160580",
+        "priority": -1
+      },
+      {
+        "type": "pstn",
+        "phone_system": "DR Cisco",
+        "pstn_number": "17736952586",
+        "priority": -1
+      }
+    ]
+  }
+]

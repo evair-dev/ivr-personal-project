@@ -1,0 +1,25 @@
+[
+  {
+    "greeting_message": "Thank you for calling <phoneme alphabet=\"ipa\" ph=\"əˈvɑnt\">Avant</phoneme>. Please be advised that your call will be monitored or recorded for quality and training purposes.",
+    "workflow_name": "Iivr.ivr.activate_card",
+    "routes": [
+      {
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "17732074709",
+        "short_number": "9",
+        "admin": false
+      }
+    ]
+  },
+  {
+    "greeting_message": "This number is for authorized personal only",
+    "routes": [
+      {
+        "contact_type": "IVR",
+        "inbound_target": "13122627793",
+        "admin": true
+      }
+    ]
+  }
+]

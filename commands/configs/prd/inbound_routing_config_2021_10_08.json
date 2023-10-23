@@ -1,0 +1,32 @@
+[
+  {
+    "greeting_message": " ",
+    "workflow_name": "shared.ivr.customer_lookup",
+    "routes": [
+      {
+        "queue_name": "AFC.LN.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "13092205886",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.LN.ORIG",
+        "contact_type": "IVR",
+        "inbound_target": "13092205924",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.CC.CUS",
+        "contact_type": "IVR",
+        "inbound_target": "13092490298",
+        "admin": false
+      },
+      {
+        "queue_name": "AFC.CC.ORIG",
+        "contact_type": "IVR",
+        "inbound_target": "13092501577",
+        "admin": false
+      }
+    ]
+  }
+]
